@@ -28,13 +28,13 @@
 ## 使用方法
 *  自动回归测试 
 
-修改git-polling.sh中url="https://github.com/chyyuu/linux-rt-devel.git" 为想要测试的giturl 
+修改git-polling.sh中url="https://github.com/torvalds/linux.git " 为想要测试的giturl 
 
 执行./git-polling.sh
 
 *  自动批量测试指定版本代码
 
-修改build_bat.sh中url="https://github.com/chyyuu/linux-rt-devel.git" 为想要测试的giturl tagename为想要测试的版本号码或者commitid 
+修改build_bat.sh中url="https://github.com/torvalds/linux.git " 为想要测试的giturl tagename为想要测试的版本号码或者commitid 
 
 执行./build_bat.sh
 
