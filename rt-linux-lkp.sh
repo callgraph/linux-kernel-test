@@ -126,4 +126,4 @@ qemu-system-x86_64 -enable-kvm   -kernel ${BUILD_DIR}/arch/x86/boot/bzImage -ini
 #./run_lkp.sh ${BUILD_DIR}/arch/x86/boot/bzImage ${COMMITID}  ${BUILD_COMMIT_DIR}/modules.cpio.gz  benchmka  benchmkb benchmkc
 
 
-qemu-system-x86_64 -enable-kvm   -kernel ${BUILD_DIR}/arch/x86/boot/bzImage  -hda ./ubuntu_img.img -append  "root=/dev/sda1 console=ttyS0 ${COMMITID} ebizzy" -m 2048 -nographic     >${BUILD_DIR}/boot_run_log.txt
+qemu-system-x86_64 -enable-kvm   -kernel ${BUILD_DIR}/arch/x86/boot/bzImage  -hda ./ubuntu_img.img -append  "root=/dev/sda1 console=ttyS0 ${COMMITID} ebizzy" -m 2048 -nographic     >${BUILD_DIR}/lkp_run_log.txt
