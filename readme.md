@@ -26,6 +26,10 @@
 
 
 ## 使用方法
+sudo apt-get install qemu
+WORK=some dir
+cd $WORK 
+git clone https://github.com/callgraph/linux-kernel-test.git
 *  自动回归测试 
 
 修改git-polling.sh中url="https://github.com/torvalds/linux.git " 为想要测试的giturl 
